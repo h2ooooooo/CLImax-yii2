@@ -9,7 +9,7 @@ This package adds yii2 integration to CLImax.
 ### Through command line
 
     # Add the github repository to our list of repos to fetch composer packages from
-    composer config repositories.repo-name git git@github.com:h2ooooooo/CLImax-yii2.git
+    composer config repositories.CLImax-yii2 git git@github.com:h2ooooooo/CLImax-yii2.git
     
     # Require the dependency in composer
     composer require-dev jalsoedesign/climax-yii2
