@@ -1,0 +1,45 @@
+{
+  "name": "jalsoedesign/climax-yii2",
+  "description": "CLImax integration for yii2 console applications",
+  "keywords": ["jalsoedesign", "climax", "yii2", "console", "cli"],
+  "version": "master",
+  "type": "package",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable" : true,
+  "authors": [
+    {
+      "name": "Andreas Jalsøe",
+      "email": "andreas@jalsoedesign.net",
+      "homepage": "http://www.jalsoedesign.net",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "jalsoedesign/climax": "*",
+    "yiisoft/yii2": "~2.0.15"
+  },
+  "replace": {
+    "bower-asset/punycode": "*",
+    "bower-asset/jquery": "*",
+    "bower-asset/inputmask": "*",
+    "bower-asset/yii2-pjax": "*",
+    "cebe/markdown": "*",
+    "ezyang/htmlpurifier": "*",
+    "yiisoft/yii2-composer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CLImax\\yii2\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/h2ooooooo/CLImax.git",
+      "type": "git"
+    }
+  ]
+}
